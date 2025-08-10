@@ -1,0 +1,9 @@
+netmiko
+napalm
+genie
+requests
+ncclient
+nornir
+jinja2m
+yml
+jinja2

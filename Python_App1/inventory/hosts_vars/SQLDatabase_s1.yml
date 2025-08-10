@@ -1,0 +1,24 @@
+credentials:
+    - user_name: pajeanbe
+      password: pajeanbe_SQLDatabase_s1_passwd #the value is the parametter information to check in .env
+      node_OS: ubuntu
+      protocol_allow_to_remote_server:
+            - Active: true
+              protocols:
+                 - ssh
+                 - http
+                 - https
+                 - 
+                 
+    - user_name: controladmin
+      password: controladmin_SQLDatabase_s1_passwd
+      node_OS: ubuntu
+      protocol_allow_to_remote_server:
+            - Active: true
+              protocols:
+                 - ssh
+                 - http
+                 - https
+                 - 
+                 
+      

@@ -1,0 +1,24 @@
+credentials:
+    - user_name: pajeanbe
+      password: pajeanbe_Storage_FTP_Rsyslog_S1 #the value is the parametter information to check in .env
+      node_OS: ubuntu
+      protocol_allow_to_remote_server:
+            - Active: true
+              protocols:
+                 - ssh
+                 - http
+                 - https
+                 - 
+                 
+    - user_name: controladmin
+      password: Storage_FTP_Rsyslog_S1
+      node_OS: ubuntu
+      protocol_allow_to_remote_server:
+            - Active: true
+              protocols:
+                 - ssh
+                 - http
+                 - https
+                 - 
+                 
+      

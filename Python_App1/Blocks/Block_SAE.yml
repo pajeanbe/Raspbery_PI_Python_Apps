@@ -1,0 +1,42 @@
+Blocks:
+    - Name: remote_ssh_server_allow
+      Description: number of remote server allow to do remote ssh
+      SAEs:
+         - ID: RSSA1 
+           Description: Size alteration for the number of nodes allowed to do ssh with the python app
+           Licence_NI: 150
+           Max_NI: 8
+           NI: 3
+           Activate: true
+           Alerts:
+              - 'RSSA1| NI>Max_NI'
+              - 'RSSA1| Value of the licence reachable'
+         - ID: RSSA2 
+           Description: size alteration for the number of concurent ssh session
+           Licence_NI: None
+           Max_NI: 8
+           NI: 4
+           Activate: false
+           Alerts:
+               - 'RSSA2| Ni>max_NI
+    
+    - Name:
+      Description:
+      SAEs:
+         - ID:
+           Description:
+           Max_size:
+           Size:
+           Activate: true
+           Alert:
+    
+    - Name:
+      Description:
+      SAEs:
+         - ID:
+           Description:
+           Max_size:
+           Size:
+           Activate: true
+           
+    
